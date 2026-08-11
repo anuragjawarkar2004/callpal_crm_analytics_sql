@@ -72,3 +72,6 @@ This isn't a generic "employees and departments" SQL exercise — it mirrors a r
 CRM analytics workflow I built during my internship: lead tracking, call logging,
 sales pipeline monitoring, and a performance dashboard, the same components behind
 Callpal's actual product.
+
+
+## Sample Output **Team Performance Dashboard:** ![dashboard](dashboard_output.png) **Lead Funnel:** ![funnel](funnel_output.png)
