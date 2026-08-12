@@ -54,21 +54,21 @@ in `queries.sql` (only used in queries 3.3 and 4.3).
 
 ## Query set
 
-1. **Basic aggregation** — calls by outcome, leads by source, average call duration
-2. **Joins** — conversion rate by lead source, calls handled per agent, pipeline value per agent, closed-won revenue by team
-3. **Window functions** — agent ranking within team, connect rate vs. team average, month-over-month lead growth, running revenue total
-4. **CTEs** — funnel drop-off analysis, **Team Performance Dashboard** (signature query), cold/stale lead detection
+1. **Basic aggregation** - calls by outcome, leads by source, average call duration
+2. **Joins** - conversion rate by lead source, calls handled per agent, pipeline value per agent, closed-won revenue by team
+3. **Window functions** - agent ranking within team, connect rate vs. team average, month-over-month lead growth, running revenue total
+4. **CTEs** - funnel drop-off analysis, **Team Performance Dashboard** (signature query), cold/stale lead detection
 
 ## Sample insights (from the seeded dataset)
 
-- Out of 300 leads, **218 (72.7%) were contacted**, **130 (43.3%) qualified**, and **61 (20.3%) converted** — the biggest drop-off is between "Qualified" and "Converted."
-- **Email Campaign** leads converted at **25.5%**, the highest of all five sources, ahead of Cold Call (23.2%) and Website (19.5%) — despite generating the fewest raw leads.
+- Out of 300 leads, **218 (72.7%) were contacted**, **130 (43.3%) qualified**, and **61 (20.3%) converted** - the biggest drop-off is between "Qualified" and "Converted."
+- **Email Campaign** leads converted at **25.5%**, the highest of all five sources, ahead of Cold Call (23.2%) and Website (19.5%) - despite generating the fewest raw leads.
 - Total closed-won revenue across all agents: **₹79,87,632** from 61 deals.
-- Top individual performer by revenue: **Karan Verma (Team Alpha)** at ₹11,14,491 — used the team-performance query to identify this.
+- Top individual performer by revenue: **Karan Verma (Team Alpha)** at ₹11,14,491 - used the team-performance query to identify this.
 
 ## Why this project
 
-This isn't a generic "employees and departments" SQL exercise — it mirrors a real
+This isn't a generic "employees and departments" SQL exercise - it mirrors a real
 CRM analytics workflow I built during my internship: lead tracking, call logging,
 sales pipeline monitoring, and a performance dashboard, the same components behind
 Callpal's actual product.
