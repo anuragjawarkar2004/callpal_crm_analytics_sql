@@ -5,7 +5,7 @@ Data Analyst internship at Brawizz Tech (May–June 2026). During the internship
 SQL and Python to clean and analyze customer/call data, and built a Call Analytics &
 Team Performance Dashboard in Power BI that cut reporting time by 30%.
 
-This repo recreates that analytics pipeline end-to-end using a dataset — from raw lead/call/opportunity records to the SQL logic that would feed a BI dashboard.
+This repo recreates that analytics pipeline end-to-end using a dataset - from raw lead/call/opportunity records to the SQL logic that would feed a BI dashboard.
 
 ## Problem Statement
 
